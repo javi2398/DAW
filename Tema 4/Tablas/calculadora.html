@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        table, th, td {
+            /* Con border le estamos dando un borde solido visible de color negro, con collapse hacemos que unifiquen en 1 solo borde */
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            /* Con padding le damos mas espacio a la celda, para que no quede tan apretada */
+            padding: 10px;
+        }
+
+        td {
+            /* Con text-align alineamos de la forma que queramos el texto */
+            text-align: center;
+        }
+
+        th {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <caption><b>CALCULADORA</b></caption>
+        <tr>
+            <!-- Con rowspan unimos filas, con colspan unimos columnas -->
+            <th colspan="5">0</td>
+        </tr>
+        <tr>
+            <td>MC</td>
+            <td>MR</td>
+            <td>MS</td>
+            <td>M+</td>
+            <td>M-</td>
+        </tr>
+        <tr>
+            <td>←</td>
+            <td>CE</td>
+            <td>C</td>
+            <td>±</td>
+            <td>√</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>/</td>
+            <td>%</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>*</td>
+            <td>1/x</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>-</td>
+            <td rowspan="2">=</td>
+        </tr>
+        <tr>
+            <td colspan="2">0</td>
+            <td>,</td>
+            <td>+</td>
+        </tr>
+        
+    </table>
+    <br><br><br> <a href="/index.html">Volver al index principal</a>
+
+</body>
+</html>
