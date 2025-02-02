@@ -1,0 +1,6 @@
+Debemos ejecutar npm run dev para que se nos actualice en tiempo real los cambios.
+
+Para paralo debemos hacer control + C sobre el terminal
+
+
+Para subir a producción deberiamos hacer npm run build, en la carpeta app -> build se encontrarian los archivos necesarios
